@@ -2,7 +2,7 @@ import bpy
 import os
 from bpy.props import StringProperty, BoolProperty, EnumProperty
 
-# Función para exportar coleccione
+# Función para exportar colecciones
 def export_collections(context):
     # Obtener la ruta de exportación ingresada en el campo de texto
     export_path = context.scene.export_path
